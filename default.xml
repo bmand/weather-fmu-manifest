@@ -4,7 +4,6 @@
   <default sync-j="4" revision="master"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://github.com/FullMetalUpdate/" name="fullmetalupdate"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/advancedtelematic" name="advancedtelematic"/>
   <remote fetch="https://github.com/bmand" name="weather-fmu"/>
@@ -13,7 +12,7 @@
   <project remote="yocto" revision="rocko" name="poky" path="sources/poky"/>
   <project remote="oe" revision="rocko" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="advancedtelematic" revision="rocko" name="meta-updater" path="sources/meta-updater"/>
-  <project remote="fullmetalupdate" revision="rocko" name="meta-fullmetalupdate" path="sources/meta-fullmetalupdate"/>
+  <project remote="weather-fmu" revision="rocko" name="meta-fullmetalupdate" path="sources/meta-fullmetalupdate"/>
   <project remote="weather-fmu" revision="master" name="meta-weather-fmu" path="sources/meta-weather-fmu"/>
 
   <project remote="qt" revision="rocko" name="meta-qt5" path="sources/meta-qt5"/>
